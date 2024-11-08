@@ -1,0 +1,12 @@
+/**
+ * Cluster generated with Every Layout
+ * https://every-layout.dev/layouts/cluster/#the-generator
+ */
+
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space, var(--space-m));
+  justify-content: space-between;
+  align-items: center;
+}

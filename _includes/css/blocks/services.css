@@ -1,0 +1,13 @@
+/**
+ * Services list
+ */
+
+.services-list {
+  list-style-type: none;
+  padding-left: var(--space-3xs);
+}
+
+.service-icon {
+  display: inline-block;
+  margin-right: var(--space-2xs);
+}

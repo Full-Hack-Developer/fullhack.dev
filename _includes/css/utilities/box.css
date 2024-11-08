@@ -1,0 +1,10 @@
+/**
+ * Utility for wrapping content in a bordered box
+ */
+
+.box {
+  background-color: var(--color-bg);
+  border: var(--space-3xs) solid var(--color-text);
+  box-shadow: 0.3rem 0.3rem 0 var(--color-shadow);
+  padding: var(--space-xs);
+}

@@ -1,0 +1,27 @@
+/**
+ * Cover generated with Every Layout
+ * https://every-layout.dev/layouts/cover/#the-generator
+ */
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  min-block-size: 100vh;
+  padding: var(--space-s);
+}
+
+.cover > * {
+  margin-block: var(--space-s);
+}
+
+.cover > :first-child:not(div) {
+  margin-block-start: 0;
+}
+
+.cover > :last-child:not(div) {
+  margin-block-end: 0;
+}
+
+.cover > div {
+  margin-block: auto;
+}

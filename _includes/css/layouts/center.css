@@ -1,0 +1,10 @@
+/**
+ * Center generated with Every Layout
+ * https://every-layout.dev/layouts/center/#the-generator
+ */
+
+.center {
+  box-sizing: content-box;
+  margin-inline: auto;
+  max-inline-size: calc(var(--measure) * 2);
+}

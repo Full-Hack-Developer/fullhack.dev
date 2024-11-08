@@ -1,0 +1,17 @@
+/**
+ * Main site header and tagline
+ */
+
+.header-icon {
+  display: block;
+}
+
+.header-tagline {
+  font-size: var(--step-1);
+}
+
+.header-byline {
+  display: block;
+  font-size: var(--step--1);
+  font-style: italic;
+}

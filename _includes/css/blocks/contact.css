@@ -1,0 +1,43 @@
+/**
+ * Contact call to action
+ */
+
+.contact {
+  color: var(--color-text);
+  display: block;
+  font-family: var(--font-decorative);
+  font-size: var(--step-2);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact:focus {
+  outline: none;
+}
+
+.contact:focus .contact-email {
+  outline: var(--space-3xs) solid var(--color-shadow);
+  outline-offset: var(--space-3xs);
+}
+
+.contact h2 {
+  display: inline-block;
+  margin-right: var(--space-2xs);
+}
+
+.contact-email {
+  color: var(--color-link);
+  font-size: var(--step-2);
+  text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .contact {
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .contact:focus,
+  .contact:hover {
+    transform: scale(1.05);
+  }
+}

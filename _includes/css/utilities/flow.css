@@ -1,0 +1,13 @@
+/**
+ * Flow utilities (aka Stack layouts)
+ * https://piccalil.li/quick-tip/flow-utility/
+ * https://every-layout.dev/layouts/stack/
+ */
+
+.flow-s > * + * {
+  margin-top: var(--flow-space, var(--space-s));
+}
+
+.flow-xs > * + * {
+  margin-top: var(--flow-space, var(--space-xs));
+}

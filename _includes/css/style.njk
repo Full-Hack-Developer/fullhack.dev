@@ -1,0 +1,28 @@
+{##
+ # Super Simple CSS Concatenation
+ # https://www.11ty.dev/docs/quicktips/concatenate/
+ #}
+
+{% set css %}
+  {% include "css/global/reset.css" %}
+  {% include "css/global/fonts.css" %}
+  {% include "css/global/scale.css" %}
+  {% include "css/global/measure.css" %}
+  {% include "css/global/theme.css" %}
+  {% include "css/global/global.css" %}
+
+  {% include "css/layouts/center.css" %}
+  {% include "css/layouts/cover.css" %}
+  {% include "css/layouts/switcher.css" %}
+  {% include "css/layouts/cluster.css" %}
+
+  {% include "css/utilities/flow.css" %}
+  {% include "css/utilities/box.css" %}
+
+  {% include "css/blocks/header.css" %}
+  {% include "css/blocks/footer.css" %}
+  {% include "css/blocks/services.css" %}
+  {% include "css/blocks/contact.css" %}
+{% endset %}
+
+<style>{{ css | safe }}</style>
