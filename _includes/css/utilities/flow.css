@@ -5,9 +5,9 @@
  */
 
 .flow-s > * + * {
-  margin-top: var(--flow-space, var(--space-s));
+	margin-top: var(--flow-space, var(--space-s));
 }
 
 .flow-xs > * + * {
-  margin-top: var(--flow-space, var(--space-xs));
+	margin-top: var(--flow-space, var(--space-xs));
 }

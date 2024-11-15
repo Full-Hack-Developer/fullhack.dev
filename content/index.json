@@ -1,25 +1,25 @@
 {
-  "url": "https://fullhack.dev/",
-  "title": "Full-Hack Developer",
-  "description": "Software development and offensive security testing services",
-  "favicon": "🗿",
-  "metaImage": "images/banner.png",
-  "name": "Steven Harland",
-  "nameLink": "https://www.linkedin.com/in/stvnhrlnd",
-  "servicesTitle": "What I do",
-  "servicesTitleIcon": "👨‍💻",
-  "services": [
-    { "icon": "🥞", "title": "Full-Stack Software Development" },
-    { "icon": "🧡", "title": "Umbraco CMS Development" },
-    { "icon": "🧱", "title": "Offensive Security Testing" },
-    { "icon": "🧐", "title": "Secure Code Review" }
-  ],
-  "contactTitle": "Get in touch:",
-  "contactTitleIcon": "💌",
-  "contactEmail": "sh@fullhack.dev",
-  "copyright": "©️ 2024 Full-Hack Developer Ltd",
-  "footerLinks": [
-    { "url": "https://donutsec.fun/", "title": "Blog" },
-    { "url": "https://github.com/stvnhrlnd", "title": "GitHub" }
-  ]
+	"url": "https://fullhack.dev/",
+	"title": "Full-Hack Developer",
+	"description": "Software development and offensive security testing services",
+	"favicon": "🗿",
+	"metaImage": "images/banner.png",
+	"name": "Steven Harland",
+	"nameLink": "https://www.linkedin.com/in/stvnhrlnd",
+	"servicesTitle": "What I do",
+	"servicesTitleIcon": "👨‍💻",
+	"services": [
+		{ "icon": "🥞", "title": "Full-Stack Software Development" },
+		{ "icon": "🧡", "title": "Umbraco CMS Development" },
+		{ "icon": "🧱", "title": "Offensive Security Testing" },
+		{ "icon": "🧐", "title": "Secure Code Review" }
+	],
+	"contactTitle": "Get in touch:",
+	"contactTitleIcon": "💌",
+	"contactEmail": "sh@fullhack.dev",
+	"copyright": "©️ 2024 Full-Hack Developer Ltd",
+	"footerLinks": [
+		{ "url": "https://donutsec.fun/", "title": "Blog" },
+		{ "url": "https://github.com/stvnhrlnd", "title": "GitHub" }
+	]
 }

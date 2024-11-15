@@ -3,10 +3,10 @@
  */
 
 :root {
-  --color-bg: #f2f3f4;
-  --color-text: #131516;
-  --color-link: #0066cc;
-  --color-shadow: #556062;
-  --font-base: "PT Sans", sans-serif;
-  --font-decorative: "VT323", monospace;
+	--color-bg: #f2f3f4;
+	--color-text: #131516;
+	--color-link: #0066cc;
+	--color-shadow: #556062;
+	--font-base: "PT Sans", sans-serif;
+	--font-decorative: "VT323", monospace;
 }

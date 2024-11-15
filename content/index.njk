@@ -1,79 +1,79 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>{{ title }}</title>
-    <meta name="description" content="{{ description }}">
-    <meta name="generator" content="{{ eleventy.generator }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="{{ title }}">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ url }}">
-    <meta property="og:image" content="{{ url }}{{ metaImage }}">
-    {# https://css-tricks.com/emoji-as-a-favicon/ #}
-    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22%3E%3Ctext%20y=%22.9em%22%20font-size=%2280%22%3E{{ favicon }}%3C/text%3E%3C/svg%3E">
-    {% include "css/style.njk" %}
-  </head>
-  <body>
-    <!--
-      - 🚨 YOU ARE L33T H4X0R!!! 🚨
-      -
-      - Look, if you want to see the complete, unminified source code for this
-      - "site", just head over to the public GitHub repo:
-      -
-      - https://github.com/Full-Hack-Developer/fullhack.dev
-      -->
-    <div class="center">
-      <div class="cover">
-        <div>
-          <div class="switcher">
-            <header>
-              <h1>
-                <span class="header-icon">{{ favicon }}</span>
-                {{ title }}
-              </h1>
-              <p class="header-tagline">
-                {{ description }}
-                <small class="header-byline">
-                  by <a href="{{ nameLink }}">{{ name }}</a>
-                </small>
-              </p>
-            </header>
-            <main class="flow-s">
-              <div class="box flow-xs">
-                <h2>{{ servicesTitleIcon }} {{ servicesTitle }}</h2>
-                <ul class="flow-xs services-list">
-                  {% for service in services %}
-                    <li>
-                      <span class="service-icon">{{ service.icon }}</span>
-                      {{ service.title }}
-                    </li>
-                  {% endfor %}
-                </ul>
-              </div>
-              <a href="mailto:{{ contactEmail }}" class="box contact">
-                <h2>{{ contactTitleIcon }} {{ contactTitle }}</h2>
-                <span class="contact-email">{{ contactEmail }}</span>
-              </a>
-            </main>
-          </div>
-        </div>
-        <footer class="cluster">
-          <p>{{ copyright }}</p>
-          <div class="cluster">
-            <ul class="cluster footer-links">
-              {% for link in footerLinks %}
-                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-              {% endfor %}
-            </ul>
-            <!--
-              - Human made content badge by Andy Carolan
-              - https://ko-fi.com/s/4662b19f61
-              -->
-            <img src="/images/MadeByAHuman_01.svg" alt="made by a human 🙂">
-          </div>
-        </footer>
-      </div>
-    </div>
-  </body>
+	<head>
+		<meta charset="UTF-8">
+		<title>{{ title }}</title>
+		<meta name="description" content="{{ description }}">
+		<meta name="generator" content="{{ eleventy.generator }}">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:title" content="{{ title }}">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="{{ url }}">
+		<meta property="og:image" content="{{ url }}{{ metaImage }}">
+		{# https://css-tricks.com/emoji-as-a-favicon/ #}
+		<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22%3E%3Ctext%20y=%22.9em%22%20font-size=%2280%22%3E{{ favicon }}%3C/text%3E%3C/svg%3E">
+		{% include "css/style.njk" %}
+	</head>
+	<body>
+		<!--
+			- 🚨 YOU ARE L33T H4X0R!!! 🚨
+			-
+			- Look, if you want to see the complete, unminified source code for this
+			- "site", just head over to the public GitHub repo:
+			-
+			- https://github.com/Full-Hack-Developer/fullhack.dev
+			-->
+		<div class="center">
+			<div class="cover">
+				<div>
+					<div class="switcher">
+						<header>
+							<h1>
+								<span class="header-icon">{{ favicon }}</span>
+								{{ title }}
+							</h1>
+							<p class="header-tagline">
+								{{ description }}
+								<small class="header-byline">
+									by <a href="{{ nameLink }}">{{ name }}</a>
+								</small>
+							</p>
+						</header>
+						<main class="flow-s">
+							<div class="box flow-xs">
+								<h2>{{ servicesTitleIcon }} {{ servicesTitle }}</h2>
+								<ul class="flow-xs services-list">
+									{% for service in services %}
+										<li>
+											<span class="service-icon">{{ service.icon }}</span>
+											{{ service.title }}
+										</li>
+									{% endfor %}
+								</ul>
+							</div>
+							<a href="mailto:{{ contactEmail }}" class="box contact">
+								<h2>{{ contactTitleIcon }} {{ contactTitle }}</h2>
+								<span class="contact-email">{{ contactEmail }}</span>
+							</a>
+						</main>
+					</div>
+				</div>
+				<footer class="cluster">
+					<p>{{ copyright }}</p>
+					<div class="cluster">
+						<ul class="cluster footer-links">
+							{% for link in footerLinks %}
+								<li><a href="{{ link.url }}">{{ link.title }}</a></li>
+							{% endfor %}
+						</ul>
+						<!--
+							- Human made content badge by Andy Carolan
+							- https://ko-fi.com/s/4662b19f61
+							-->
+						<img src="/images/MadeByAHuman_01.svg" alt="made by a human 🙂">
+					</div>
+				</footer>
+			</div>
+		</div>
+	</body>
 </html>

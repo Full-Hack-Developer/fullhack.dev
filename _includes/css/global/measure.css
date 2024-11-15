@@ -4,11 +4,11 @@
  */
 
 :root {
-  --measure: 60ch;
+	--measure: 60ch;
 }
 
 * {
-  max-inline-size: var(--measure);
+	max-inline-size: var(--measure);
 }
 
 html,
@@ -18,5 +18,5 @@ header,
 nav,
 main,
 footer {
-  max-inline-size: none;
+	max-inline-size: none;
 }

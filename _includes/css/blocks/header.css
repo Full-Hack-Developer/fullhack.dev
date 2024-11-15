@@ -3,15 +3,15 @@
  */
 
 .header-icon {
-  display: block;
+	display: block;
 }
 
 .header-tagline {
-  font-size: var(--step-1);
+	font-size: var(--step-1);
 }
 
 .header-byline {
-  display: block;
-  font-size: var(--step--1);
-  font-style: italic;
+	display: block;
+	font-size: var(--step--1);
+	font-style: italic;
 }

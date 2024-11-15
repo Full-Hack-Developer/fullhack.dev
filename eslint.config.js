@@ -7,7 +7,7 @@ import eslintConfigPrettier from "eslint-config-prettier";
  * @type {import("eslint").Linter.Config[]}
  */
 export default [
-  { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
-  pluginJs.configs.recommended,
-  eslintConfigPrettier,
+	{ languageOptions: { globals: { ...globals.browser, ...globals.node } } },
+	pluginJs.configs.recommended,
+	eslintConfigPrettier,
 ];
